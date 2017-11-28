@@ -1,4 +1,4 @@
-class Monitor
+class Screen
 {
 
     String manufacturer;
@@ -6,11 +6,11 @@ class Monitor
     String proportions;
     double price;
 
-    Monitor() {
+    Screen() {
 
     }
 
-    Monitor(String man, int si, String prop, double pri){
+    Screen(String man, int si, String prop, double pri){
         manufacturer = man;
         size = si;
         proportions = prop;
